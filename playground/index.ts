@@ -6,18 +6,18 @@ import { NgModule } from '@angular/core';
 import { Component } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
-import { SampleModule }  from 'ng2-input-hints';
+import { InputHintsModule }  from '../src/index';
 
 @Component({
   selector: 'app',
-  template: `<sample-component></sample-component>`
+  template: `<input [inputHints]="['Foo bar', 'Lorem ipsum']" />`
 })
 class AppComponent {}
 
 @NgModule({
   bootstrap: [ AppComponent ],
   declarations: [ AppComponent ],
-  imports: [ BrowserModule, SampleModule ]
+  imports: [ BrowserModule, InputHintsModule ]
 })
 class AppModule {}
 
