@@ -1,0 +1,28 @@
+{
+  "name": "ng2-input-hints",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/williamboman/ng2-input-hints"
+  },
+  "author": {
+    "name": "William Boman",
+    "email": "william@redwill.se"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/williamboman/ng2-input-hints/issues"
+  },
+  "main": "ng2-input-hints.umd.js",
+  "module": "ng2-input-hints.js",
+  "jsnext:main": "ng2-input-hints.js",
+  "typings": "ng2-input-hints.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^4.0.0",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4"
+  }
+}
